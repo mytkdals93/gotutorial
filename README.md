@@ -21,3 +21,8 @@ GO 공식 튜토리얼
 - 랜덤 숫자를 뽑을 때 이용.
 - - 시드 지정 rand.Seed(time.Now().UnixNano()) (프로그램 상 완전한 랜덤은 있을 수 없기 떄문에 타임을 이용해 늘 변경되는 값을 지정)
 - - 
+
+## Go 테스트 
+- Go는 빌트인으로 테스팅을 지원한다. (네이밍 컨벤션, testing 패키지, gotest 커맨드로 빠르게 작성하고 실행시킬 수 있음)
+- Ending a file's name with _test.go tells the go test command that this file contains test functions.
+- _test.go로 이름이 끝나면 해당 파일에 test function이 포함되어 있음을 알 수 있다.
